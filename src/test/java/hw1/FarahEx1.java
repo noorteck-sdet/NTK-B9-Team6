@@ -37,18 +37,9 @@ public class FarahEx1 {
 		Thread.sleep(3000);
 		//Retrieve the Header Text and Verify the header is Dashboard
 
-		WebElement headerTextVerivication = driver.findElement(By.tagName("h6"));
-	    String textStr = headerTextVerivication.getText();
-		System.out.println("Text:"+ textStr);
-		Thread.sleep(3000);
-		
-		
-		driver.quit();
-		
-		
-	}
+		}
 
-}
+		}
 
 
 /**
