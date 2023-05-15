@@ -43,6 +43,9 @@ public class NikzadEx1 {
 			Thread.sleep(3000);
 			
 			
+			driver.quit();
+			
+			
 	}
 
 }
