@@ -15,6 +15,7 @@ public class Exercise1Saba {
 		
 		driver.get("https://ntkhr.noortecktraining.com/web/index.php/dashboard/index");
 		Thread.sleep(3000);
+		
 		//3. Enter ntk-admin in the username field
 		WebElement userNameField = driver.findElement(By.name("username"));
 		userNameField.sendKeys("ntk-admin");
